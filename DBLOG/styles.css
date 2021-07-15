@@ -1,0 +1,132 @@
+
+.zone{
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+
+/*Navigation bar*/
+.navigation{
+    background-color: rgb(163, 114, 50);
+    width: 100%;
+
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    margin: 2px;
+    padding: 10px;
+    
+}
+
+a:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.logo{
+    color: blue;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+
+/*Body*/
+.container{
+   background-color: crimson;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+   background-image: url(./maurits-bausenhart-QMRN_GX7p4I-unsplash.jpg);
+   background-size: 100%;
+   background-position: center ;
+   
+}
+
+h1{
+    cursor: pointer;
+}
+
+img{
+    transition: all 0.3s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+/*zoo*/
+.animals{
+   display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  color: rgb(170, 61, 61);
+}
+
+
+/*Portfolio*/
+.grid{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    cursor: pointer;
+}
+
+.picture > img {
+    width: 100%;
+}
+
+.picture {
+    padding: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+/*About*/
+.texts{
+    font-family: fantasy;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+}
+
+
+
+
+
+/*Footer*/
+.footer{
+    background-color: rgb(163, 114, 50);
+    height: 40vh;
+
+}
+
+h2{
+    color: white;
+    text-decoration: underline;
+}
+
+
